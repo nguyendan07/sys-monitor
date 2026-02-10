@@ -1,0 +1,26 @@
+# Go binaries
+backend/cmd/server/server
+*.exe
+
+# Node dependencies
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+
+# OS files
+.DS_Store
+.env
+
+### VisualStudioCode ###
+.vscode/
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
